@@ -1,0 +1,35 @@
+﻿body
+
+{
+    margin: 0;
+    height: 100vh;
+    color: #F9a825;
+    background: #18222f;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.progress {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff5;
+}
+
+.progress-done {
+    width: 0;
+    opacity: 0;
+    height: 100%;
+    font-family: cursive;
+    color: #283745;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px -5px #00ff33,0 2px 5px #00ff33;
+    transition: 1.3s ease;
+    background: linear-gradient(to left, #00ff33, #00ff99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
